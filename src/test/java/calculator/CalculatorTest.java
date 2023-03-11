@@ -22,12 +22,12 @@ class CalculatorTest {
 
     @Test
     void substract_two_numbers() {
-        assertThat(calc.substract(3, 2), is(equalTo(1)));
+        assertThat(calc.subtract(3, 2), is(equalTo(1)));
     }
 
     @Test
     void substract_two_numbers_negative() {
-        assertThat(calc.substract(2, 3), is(equalTo(-1)));
+        assertThat(calc.subtract(2, 3), is(equalTo(-1)));
     }
 
     @Test
